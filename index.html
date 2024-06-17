@@ -299,7 +299,7 @@ on extracting object flows <strong> from human videos</strong>. We leverage the 
         <h3 class="title is-4">Inference Pipeline</h3>
         <div class="content has-text-justified">
           <p>
-        During inference, the flow generation network generates a task flow conditioned on an initial RGB frame, a task description, and a set of initial keypoints obtained through Grounding DINO. The generated flow is post-processed by a motion filter to remove keypoints on the background.
+        During inference, the flow generation network generates a task flow conditioned on an initial RGB image, a task description, and a set of initial keypoints obtained through Grounding DINO. The generated flow is post-processed by a motion filter to remove keypoints on the background.
 
         Our flow-conditioned imitation learning policy then completes tasks based on the generated flows.
           </p>
